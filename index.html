@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contáctanos - NuestroBank</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <h1 class="title">Contáctanos</h1>
+    <div class="contact-form">
+      <div class="input-container">
+        <input type="text" id="nombre" placeholder="Nombre" required />
+        <input type="text" id="apellido" placeholder="Apellido" required />
+      </div>
+      <div class="input-container">
+        <input type="email" id="email" placeholder="Email" required />
+        <select id="motivo" required>
+          <option value="" disabled selected>
+            Por favor especifique el motivo
+          </option>
+          <option value="Problemas con su cuenta online">
+            Problemas con su cuenta online
+          </option>
+          <option value="Restablecer contraseña">Restablecer contraseña</option>
+          <option value="Solicitud de Atención al cliente">
+            Solicitud de Atención al cliente
+          </option>
+          <option value="Otro">Otro</option>
+        </select>
+      </div>
+      <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+      <button id="enviar">Enviar mensaje</button>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

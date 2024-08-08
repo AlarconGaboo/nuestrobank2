@@ -1,0 +1,68 @@
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 48%;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px; /* Aumenta el padding para alargar el botón */
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em; /* Aumenta el tamaño de la fuente para que se vea más grande */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Hace que el botón ocupe todo el ancho del formulario */
+    max-width: 300px; /* Limita el ancho máximo del botón */
+    text-align: center; /* Asegura que el texto esté centrado */
+}
+
+button:hover {
+    background-color: #218838;
+}
